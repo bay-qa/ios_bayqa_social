@@ -1,0 +1,6 @@
+framework module Pods_BayQASocial {
+  umbrella header "Pods-BayQASocial-umbrella.h"
+
+  export *
+  module * { export * }
+}
