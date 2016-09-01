@@ -7,31 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1861F68DF8A859FDBC8A9C5C2DCA0C3D /* Pods-BayQASocial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08FE528F75C79C9313EC7223FEECBFB /* Pods-BayQASocial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1861F68DF8A859FDBC8A9C5C2DCA0C3D /* Pods-BayQASocial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621A3AEA627F3E7712F2192D2F233EDA /* Pods-BayQASocial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C8E2F7F62B5F04942D7F3AF7BAC5D4 /* Pods-BayQASocialUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2735B82CF0EE3C1219DE94DE719ADD24 /* Pods-BayQASocialUITests-dummy.m */; };
+		6D4CD3E3B1FC2C0DDF101A0B160B461F /* Pods-BayQASocialUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7D832688312B60871D99B24325E841 /* Pods-BayQASocialUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08DE14A9FE8AE9F8DDCD1A7CFBEE08D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		EF7559134B7AB2943E74C67174E25E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		FA082B45A98EB294A598D0E132C68C0C /* Pods-BayQASocial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90E2F3D362D9914E3FC3FC8233FE36 /* Pods-BayQASocial-dummy.m */; };
+		FA082B45A98EB294A598D0E132C68C0C /* Pods-BayQASocial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB168A469AC464D430F7639B3743FA /* Pods-BayQASocial-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11C2BCA0A53EEF62153E15AB0CB44C0D /* Pods-BayQASocial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayQASocial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A02944A028A11955E0A91E7C39514B8 /* Pods-BayQASocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0B4FB4D773EF637517E16A4597D55CEF /* Pods-BayQASocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B6F3AE9BF67B291C04380F10FCEE334 /* Pods_BayQASocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayQASocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		36A355BB6EAE9E0F134D6D5A5C5E5A50 /* Pods-BayQASocial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BayQASocial.modulemap"; sourceTree = "<group>"; };
+		2735B82CF0EE3C1219DE94DE719ADD24 /* Pods-BayQASocialUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayQASocialUITests-dummy.m"; sourceTree = "<group>"; };
+		383C838CEC64B88F40074FFA92444586 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399A80806F2194CF7BE722C77D3896A4 /* Pods-BayQASocialUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocialUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3B5EAE3366AC1C0018733FCF0E3C638F /* Pods-BayQASocial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocial-resources.sh"; sourceTree = "<group>"; };
+		3D9D44B40BD9B5811E2AFD5E0FB14C2F /* Pods-BayQASocial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayQASocial-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E17FB88E5DEB9B909A5739A8F3494EF /* Pods-BayQASocial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayQASocial-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D85ED2A288CF61E21019F9720657924 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		5CAAB8809308DA836AA211EE8BD414F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ED4E1B9529CC7DFE028316E417218CF /* Pods-BayQASocial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocial-resources.sh"; sourceTree = "<group>"; };
-		611B9CB717B2EC3EE61E1DCB72CA1A7B /* Pods-BayQASocial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocial-frameworks.sh"; sourceTree = "<group>"; };
-		677F5867E20100A97943F3E5606F8C24 /* Pods-BayQASocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocial.release.xcconfig"; sourceTree = "<group>"; };
-		6BADFCE790F8E7283C74A2F0C93B60FB /* Pods_BayQASocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayQASocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBB168A469AC464D430F7639B3743FA /* Pods-BayQASocial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayQASocial-dummy.m"; sourceTree = "<group>"; };
+		621A3AEA627F3E7712F2192D2F233EDA /* Pods-BayQASocial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayQASocial-umbrella.h"; sourceTree = "<group>"; };
+		675A7E5CC873EA4B8167DC1D46B2C257 /* Pods-BayQASocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocial.release.xcconfig"; sourceTree = "<group>"; };
+		6C90AF41B2527BD48A6D361BD6790F7F /* Pods-BayQASocialUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BayQASocialUITests.modulemap"; sourceTree = "<group>"; };
+		71338A434F5D504187EF49A896F7F2DF /* Pods-BayQASocial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BayQASocial.modulemap"; sourceTree = "<group>"; };
+		72F92A592042F06E283AFC7F925770CE /* Pods-BayQASocialUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayQASocialUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7597C7E5B82344D2402F29C502F89C1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		7B90E2F3D362D9914E3FC3FC8233FE36 /* Pods-BayQASocial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayQASocial-dummy.m"; sourceTree = "<group>"; };
+		7A7D832688312B60871D99B24325E841 /* Pods-BayQASocialUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayQASocialUITests-umbrella.h"; sourceTree = "<group>"; };
+		8D0D8134FEC8E4C7A5604AE6E3D329DC /* Pods-BayQASocial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocial-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B08FE528F75C79C9313EC7223FEECBFB /* Pods-BayQASocial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayQASocial-umbrella.h"; sourceTree = "<group>"; };
+		9AB99977DEC4068D96E92E49799E433E /* Pods_BayQASocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayQASocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6401798EDCF666D11727B5DB017CA6 /* Pods-BayQASocialUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayQASocialUITests-resources.sh"; sourceTree = "<group>"; };
 		B8D7BED4C9EDECD6BE78312FC6D65A02 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		C2A47C326AE0E52E2F7DF2124A820022 /* Pods-BayQASocialUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayQASocialUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB6CF0F845DC3B16606EE6BD839720BC /* Pods-BayQASocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocial.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		E8E0ECE8B9C06C2CAD115077D8673F2D /* Pods-BayQASocial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayQASocial-acknowledgements.plist"; sourceTree = "<group>"; };
 		E902D6A1780C90DA8D9775A9551AE680 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		F1DAFDA08CBC74CC44C0EBBAC819FB7B /* Pods-BayQASocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayQASocial.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF822D2C02C424982832435D7291DB1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +55,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7559134B7AB2943E74C67174E25E7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0460F4BEB1C3B5958C0141A7C3ED4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08DE14A9FE8AE9F8DDCD1A7CFBEE08D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +114,24 @@
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
+		3755E54C023D92352F2EE279F30E8182 /* Pods-BayQASocial */ = {
+			isa = PBXGroup;
+			children = (
+				7597C7E5B82344D2402F29C502F89C1A /* Info.plist */,
+				71338A434F5D504187EF49A896F7F2DF /* Pods-BayQASocial.modulemap */,
+				3E17FB88E5DEB9B909A5739A8F3494EF /* Pods-BayQASocial-acknowledgements.markdown */,
+				3D9D44B40BD9B5811E2AFD5E0FB14C2F /* Pods-BayQASocial-acknowledgements.plist */,
+				4FBB168A469AC464D430F7639B3743FA /* Pods-BayQASocial-dummy.m */,
+				8D0D8134FEC8E4C7A5604AE6E3D329DC /* Pods-BayQASocial-frameworks.sh */,
+				3B5EAE3366AC1C0018733FCF0E3C638F /* Pods-BayQASocial-resources.sh */,
+				621A3AEA627F3E7712F2192D2F233EDA /* Pods-BayQASocial-umbrella.h */,
+				CB6CF0F845DC3B16606EE6BD839720BC /* Pods-BayQASocial.debug.xcconfig */,
+				675A7E5CC873EA4B8167DC1D46B2C257 /* Pods-BayQASocial.release.xcconfig */,
+			);
+			name = "Pods-BayQASocial";
+			path = "Target Support Files/Pods-BayQASocial";
+			sourceTree = "<group>";
+		};
 		3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +146,15 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		4119F16B7DCF0EA8A752CBA0FA746418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB99977DEC4068D96E92E49799E433E /* Pods_BayQASocial.framework */,
+				0B6F3AE9BF67B291C04380F10FCEE334 /* Pods_BayQASocialUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6E1E5C624A451F2216F2E980FA66DEE5 /* Analytics */ = {
@@ -139,35 +188,18 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */,
-				B74A3291FD40C4556A568D6C9DCDC530 /* Products */,
-				9F246B962CDD25409E9E73921AF27C88 /* Targets Support Files */,
+				4119F16B7DCF0EA8A752CBA0FA746418 /* Products */,
+				A999AFBCF5865F9B24DDC88D03455222 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F246B962CDD25409E9E73921AF27C88 /* Targets Support Files */ = {
+		A999AFBCF5865F9B24DDC88D03455222 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A50F1372B98C348A5B1989810FB2B910 /* Pods-BayQASocial */,
+				3755E54C023D92352F2EE279F30E8182 /* Pods-BayQASocial */,
+				E358C5314C541E7D31F3DC5D46085486 /* Pods-BayQASocialUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A50F1372B98C348A5B1989810FB2B910 /* Pods-BayQASocial */ = {
-			isa = PBXGroup;
-			children = (
-				5CAAB8809308DA836AA211EE8BD414F3 /* Info.plist */,
-				36A355BB6EAE9E0F134D6D5A5C5E5A50 /* Pods-BayQASocial.modulemap */,
-				11C2BCA0A53EEF62153E15AB0CB44C0D /* Pods-BayQASocial-acknowledgements.markdown */,
-				E8E0ECE8B9C06C2CAD115077D8673F2D /* Pods-BayQASocial-acknowledgements.plist */,
-				7B90E2F3D362D9914E3FC3FC8233FE36 /* Pods-BayQASocial-dummy.m */,
-				611B9CB717B2EC3EE61E1DCB72CA1A7B /* Pods-BayQASocial-frameworks.sh */,
-				5ED4E1B9529CC7DFE028316E417218CF /* Pods-BayQASocial-resources.sh */,
-				B08FE528F75C79C9313EC7223FEECBFB /* Pods-BayQASocial-umbrella.h */,
-				F1DAFDA08CBC74CC44C0EBBAC819FB7B /* Pods-BayQASocial.debug.xcconfig */,
-				677F5867E20100A97943F3E5606F8C24 /* Pods-BayQASocial.release.xcconfig */,
-			);
-			name = "Pods-BayQASocial";
-			path = "Target Support Files/Pods-BayQASocial";
 			sourceTree = "<group>";
 		};
 		AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */ = {
@@ -176,14 +208,6 @@
 				F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */,
 			);
 			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		B74A3291FD40C4556A568D6C9DCDC530 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6BADFCE790F8E7283C74A2F0C93B60FB /* Pods_BayQASocial.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -200,6 +224,24 @@
 				056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		E358C5314C541E7D31F3DC5D46085486 /* Pods-BayQASocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				383C838CEC64B88F40074FFA92444586 /* Info.plist */,
+				6C90AF41B2527BD48A6D361BD6790F7F /* Pods-BayQASocialUITests.modulemap */,
+				72F92A592042F06E283AFC7F925770CE /* Pods-BayQASocialUITests-acknowledgements.markdown */,
+				C2A47C326AE0E52E2F7DF2124A820022 /* Pods-BayQASocialUITests-acknowledgements.plist */,
+				2735B82CF0EE3C1219DE94DE719ADD24 /* Pods-BayQASocialUITests-dummy.m */,
+				399A80806F2194CF7BE722C77D3896A4 /* Pods-BayQASocialUITests-frameworks.sh */,
+				AA6401798EDCF666D11727B5DB017CA6 /* Pods-BayQASocialUITests-resources.sh */,
+				7A7D832688312B60871D99B24325E841 /* Pods-BayQASocialUITests-umbrella.h */,
+				0B4FB4D773EF637517E16A4597D55CEF /* Pods-BayQASocialUITests.debug.xcconfig */,
+				0A02944A028A11955E0A91E7C39514B8 /* Pods-BayQASocialUITests.release.xcconfig */,
+			);
+			name = "Pods-BayQASocialUITests";
+			path = "Target Support Files/Pods-BayQASocialUITests";
 			sourceTree = "<group>";
 		};
 		E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */ = {
@@ -229,9 +271,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE0692558AAD6C8CD9A0E783D5FE6797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4CD3E3B1FC2C0DDF101A0B160B461F /* Pods-BayQASocialUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0C7B8C100663F03178EB04963181C829 /* Pods-BayQASocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17ACF8556A40F08DC21E8DD91B7E68 /* Build configuration list for PBXNativeTarget "Pods-BayQASocialUITests" */;
+			buildPhases = (
+				2EC381BDCBAD6B4DF708DE9B2E0CF463 /* Sources */,
+				F0460F4BEB1C3B5958C0141A7C3ED4B1 /* Frameworks */,
+				DE0692558AAD6C8CD9A0E783D5FE6797 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BayQASocialUITests";
+			productName = "Pods-BayQASocialUITests";
+			productReference = 0B6F3AE9BF67B291C04380F10FCEE334 /* Pods_BayQASocialUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2F7BEEDF5C348C5C3F152AC33D654FC4 /* Pods-BayQASocial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60EC2A2844D64FC0FE07ABE285CE9546 /* Build configuration list for PBXNativeTarget "Pods-BayQASocial" */;
@@ -246,7 +313,7 @@
 			);
 			name = "Pods-BayQASocial";
 			productName = "Pods-BayQASocial";
-			productReference = 6BADFCE790F8E7283C74A2F0C93B60FB /* Pods_BayQASocial.framework */;
+			productReference = 9AB99977DEC4068D96E92E49799E433E /* Pods_BayQASocial.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -266,16 +333,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B74A3291FD40C4556A568D6C9DCDC530 /* Products */;
+			productRefGroup = 4119F16B7DCF0EA8A752CBA0FA746418 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2F7BEEDF5C348C5C3F152AC33D654FC4 /* Pods-BayQASocial */,
+				0C7B8C100663F03178EB04963181C829 /* Pods-BayQASocialUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2EC381BDCBAD6B4DF708DE9B2E0CF463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C8E2F7F62B5F04942D7F3AF7BAC5D4 /* Pods-BayQASocialUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4897F77F098F10FEA2299648FA9E9C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,9 +405,75 @@
 			};
 			name = Debug;
 		};
+		0B961FD4ACE7F6C969F255529F8C8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A02944A028A11955E0A91E7C39514B8 /* Pods-BayQASocialUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BayQASocialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BayQASocialUITests/Pods-BayQASocialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BayQASocialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13E4C89B9FF00ED30004A6DDFBC711EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4FB4D773EF637517E16A4597D55CEF /* Pods-BayQASocialUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BayQASocialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BayQASocialUITests/Pods-BayQASocialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BayQASocialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2F90DA94DD025579D57F48166FAADFAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677F5867E20100A97943F3E5606F8C24 /* Pods-BayQASocial.release.xcconfig */;
+			baseConfigurationReference = 675A7E5CC873EA4B8167DC1D46B2C257 /* Pods-BayQASocial.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -364,7 +506,7 @@
 		};
 		9684395A6C78F7494CD69CDE0C82DD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1DAFDA08CBC74CC44C0EBBAC819FB7B /* Pods-BayQASocial.debug.xcconfig */;
+			baseConfigurationReference = CB6CF0F845DC3B16606EE6BD839720BC /* Pods-BayQASocial.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -450,6 +592,15 @@
 			buildConfigurations = (
 				9684395A6C78F7494CD69CDE0C82DD96 /* Debug */,
 				2F90DA94DD025579D57F48166FAADFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB17ACF8556A40F08DC21E8DD91B7E68 /* Build configuration list for PBXNativeTarget "Pods-BayQASocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4C89B9FF00ED30004A6DDFBC711EC /* Debug */,
+				0B961FD4ACE7F6C969F255529F8C8C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

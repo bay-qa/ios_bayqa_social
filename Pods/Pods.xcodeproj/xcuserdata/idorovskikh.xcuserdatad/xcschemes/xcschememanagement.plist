@@ -9,9 +9,19 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BayQASocialUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0C7B8C100663F03178EB04963181C829</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2F7BEEDF5C348C5C3F152AC33D654FC4</key>
 		<dict>
 			<key>primary</key>

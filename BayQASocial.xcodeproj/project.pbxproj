@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630E7AA04C13F10C49D6F2DF /* Pods_BayQASocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7136DD2DA2AFE2F130C5AB43 /* Pods_BayQASocial.framework */; };
-		83337EE4A9768F222E9C7E2D /* Pods_devslopes_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C825A03DF288F71A7079FBA9 /* Pods_devslopes_showcase.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		932935481D78CB6400CFBA60 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932935451D78CB6400CFBA60 /* Bolts.framework */; };
 		932935491D78CB6400CFBA60 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932935461D78CB6400CFBA60 /* FBSDKCoreKit.framework */; };
 		9329354A1D78CB6400CFBA60 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932935471D78CB6400CFBA60 /* FBSDKLoginKit.framework */; };
+		932935521D78E50200CFBA60 /* BayQASocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932935511D78E50200CFBA60 /* BayQASocialUITests.swift */; };
+		9329355D1D78E83500CFBA60 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9329355A1D78E83500CFBA60 /* Bolts.framework */; };
+		9329355E1D78E83500CFBA60 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9329355B1D78E83500CFBA60 /* FBSDKLoginKit.framework */; };
+		9329355F1D78E83500CFBA60 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9329355C1D78E83500CFBA60 /* FBSDKCoreKit.framework */; };
 		D6B8E33D1B87932A00A1F881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8E33C1B87932A00A1F881 /* AppDelegate.swift */; };
 		D6B8E33F1B87932A00A1F881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8E33E1B87932A00A1F881 /* ViewController.swift */; };
 		D6B8E3421B87932A00A1F881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B8E3401B87932A00A1F881 /* Main.storyboard */; };
@@ -27,14 +29,30 @@
 		D6B8E3621B87A87C00A1F881 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8E3611B87A87C00A1F881 /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		932935541D78E50200CFBA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B8E3311B87932900A1F881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B8E3381B87932A00A1F881;
+			remoteInfo = BayQASocial;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2A97E002BF4B09475F1F5377 /* Pods-BayQASocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayQASocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BayQASocialUITests/Pods-BayQASocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D647B93B38C62FC0BBE2078 /* Pods-BayQASocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayQASocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BayQASocial/Pods-BayQASocial.debug.xcconfig"; sourceTree = "<group>"; };
 		540333AD83039DD704281F42 /* Pods-BayQASocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayQASocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-BayQASocial/Pods-BayQASocial.release.xcconfig"; sourceTree = "<group>"; };
-		7136DD2DA2AFE2F130C5AB43 /* Pods_BayQASocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayQASocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83586B7F6216C62986DC23EB /* Pods-BayQASocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayQASocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BayQASocialUITests/Pods-BayQASocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		932935451D78CB6400CFBA60 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		932935461D78CB6400CFBA60 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		932935471D78CB6400CFBA60 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		C825A03DF288F71A7079FBA9 /* Pods_devslopes_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9329354F1D78E50200CFBA60 /* BayQASocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayQASocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932935511D78E50200CFBA60 /* BayQASocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayQASocialUITests.swift; sourceTree = "<group>"; };
+		932935531D78E50200CFBA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9329355A1D78E83500CFBA60 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9329355B1D78E83500CFBA60 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9329355C1D78E83500CFBA60 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		D6B8E3391B87932A00A1F881 /* BayQASocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BayQASocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B8E33C1B87932A00A1F881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B8E33E1B87932A00A1F881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9329354C1D78E50200CFBA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6B8E3361B87932A00A1F881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,8 +85,9 @@
 				932935481D78CB6400CFBA60 /* Bolts.framework in Frameworks */,
 				932935491D78CB6400CFBA60 /* FBSDKCoreKit.framework in Frameworks */,
 				9329354A1D78CB6400CFBA60 /* FBSDKLoginKit.framework in Frameworks */,
-				83337EE4A9768F222E9C7E2D /* Pods_devslopes_showcase.framework in Frameworks */,
-				630E7AA04C13F10C49D6F2DF /* Pods_BayQASocial.framework in Frameworks */,
+				9329355D1D78E83500CFBA60 /* Bolts.framework in Frameworks */,
+				9329355E1D78E83500CFBA60 /* FBSDKLoginKit.framework in Frameworks */,
+				9329355F1D78E83500CFBA60 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +97,9 @@
 		3A3DB42BBFF7FE8B7C44C259 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C825A03DF288F71A7079FBA9 /* Pods_devslopes_showcase.framework */,
-				7136DD2DA2AFE2F130C5AB43 /* Pods_BayQASocial.framework */,
+				9329355A1D78E83500CFBA60 /* Bolts.framework */,
+				9329355B1D78E83500CFBA60 /* FBSDKLoginKit.framework */,
+				9329355C1D78E83500CFBA60 /* FBSDKCoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +109,19 @@
 			children = (
 				4D647B93B38C62FC0BBE2078 /* Pods-BayQASocial.debug.xcconfig */,
 				540333AD83039DD704281F42 /* Pods-BayQASocial.release.xcconfig */,
+				2A97E002BF4B09475F1F5377 /* Pods-BayQASocialUITests.debug.xcconfig */,
+				83586B7F6216C62986DC23EB /* Pods-BayQASocialUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		932935501D78E50200CFBA60 /* BayQASocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932935511D78E50200CFBA60 /* BayQASocialUITests.swift */,
+				932935531D78E50200CFBA60 /* Info.plist */,
+			);
+			path = BayQASocialUITests;
 			sourceTree = "<group>";
 		};
 		D625A9EB1B8B4B9200EEA640 /* Frameworks */ = {
@@ -100,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D6B8E33B1B87932A00A1F881 /* BayQASocial */,
+				932935501D78E50200CFBA60 /* BayQASocialUITests */,
 				D6B8E33A1B87932A00A1F881 /* Products */,
 				49F8E6292BC69293102025BC /* Pods */,
 				3A3DB42BBFF7FE8B7C44C259 /* Frameworks */,
@@ -110,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				D6B8E3391B87932A00A1F881 /* BayQASocial.app */,
+				9329354F1D78E50200CFBA60 /* BayQASocialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +220,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9329354E1D78E50200CFBA60 /* BayQASocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932935581D78E50200CFBA60 /* Build configuration list for PBXNativeTarget "BayQASocialUITests" */;
+			buildPhases = (
+				C78280CEE0E85FAA27022C8B /* [CP] Check Pods Manifest.lock */,
+				9329354B1D78E50200CFBA60 /* Sources */,
+				9329354C1D78E50200CFBA60 /* Frameworks */,
+				9329354D1D78E50200CFBA60 /* Resources */,
+				78A34EBFB56E0A6B48DB37D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932935551D78E50200CFBA60 /* PBXTargetDependency */,
+			);
+			name = BayQASocialUITests;
+			productName = BayQASocialUITests;
+			productReference = 9329354F1D78E50200CFBA60 /* BayQASocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D6B8E3381B87932A00A1F881 /* BayQASocial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B8E34B1B87932A00A1F881 /* Build configuration list for PBXNativeTarget "BayQASocial" */;
@@ -206,9 +266,14 @@
 		D6B8E3311B87932900A1F881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = bayqa;
 				TargetAttributes = {
+					9329354E1D78E50200CFBA60 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D6B8E3381B87932A00A1F881;
+					};
 					D6B8E3381B87932A00A1F881 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -228,11 +293,19 @@
 			projectRoot = "";
 			targets = (
 				D6B8E3381B87932A00A1F881 /* BayQASocial */,
+				9329354E1D78E50200CFBA60 /* BayQASocialUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9329354D1D78E50200CFBA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6B8E3371B87932A00A1F881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +353,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BayQASocial/Pods-BayQASocial-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		78A34EBFB56E0A6B48DB37D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BayQASocialUITests/Pods-BayQASocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C78280CEE0E85FAA27022C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		F48CED312EECDBE27DB75E9A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +401,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9329354B1D78E50200CFBA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932935521D78E50200CFBA60 /* BayQASocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6B8E3351B87932A00A1F881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +423,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932935551D78E50200CFBA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B8E3381B87932A00A1F881 /* BayQASocial */;
+			targetProxy = 932935541D78E50200CFBA60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D6B8E3401B87932A00A1F881 /* Main.storyboard */ = {
@@ -333,6 +452,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		932935561D78E50200CFBA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A97E002BF4B09475F1F5377 /* Pods-BayQASocialUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BayQASocialUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayqa.BayQASocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BayQASocial;
+			};
+			name = Debug;
+		};
+		932935571D78E50200CFBA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83586B7F6216C62986DC23EB /* Pods-BayQASocialUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = BayQASocialUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayqa.BayQASocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BayQASocial;
+			};
+			name = Release;
+		};
 		D6B8E3491B87932A00A1F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +572,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/devslopes-showcase",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "devslopes-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,6 +590,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/devslopes-showcase",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "devslopes-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -453,6 +602,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		932935581D78E50200CFBA60 /* Build configuration list for PBXNativeTarget "BayQASocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932935561D78E50200CFBA60 /* Debug */,
+				932935571D78E50200CFBA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6B8E3341B87932900A1F881 /* Build configuration list for PBXProject "BayQASocial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

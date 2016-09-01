@@ -3,6 +3,10 @@
 use_frameworks!
 
 target 'BayQASocial' do
-pod 'Firebase', '>= 2.3.3'
+    pod 'Firebase', '>= 2.3.3'
+end
+
+target 'BayQASocialUITests' do
+    pod 'Firebase', '>= 2.3.3'
 end
 
