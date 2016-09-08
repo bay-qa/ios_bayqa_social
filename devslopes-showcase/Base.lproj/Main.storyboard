@@ -125,7 +125,7 @@
                                         </constraints>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erf-oo-kna" customClass="MaterialButton" customModule="BayQASocial" customModuleProvider="target">
                                         <rect key="frame" x="177" y="191" width="206" height="35"/>
@@ -138,6 +138,9 @@
                                         <state key="normal" title="Login / Signup">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="attemptLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebb-LU-olv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -180,10 +183,33 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yeO-Qq-ThV" secondAttribute="bottom" constant="20" id="tcu-Fp-xQb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="eCD-L5-6s2" id="wU0-RH-Ay6"/>
+                        <outlet property="passwordField" destination="66U-LG-Q57" id="phb-kP-HA2"/>
+                        <segue destination="yCu-Aq-FXR" kind="show" identifier="loggedIn" id="BVL-EN-ny7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="498" y="398"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yCn-5i-aub">
+            <objects>
+                <viewController id="yCu-Aq-FXR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2hf-xX-8ec"/>
+                        <viewControllerLayoutGuide type="bottom" id="j0B-v4-Hqr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0t1-ac-aqq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.84656248889999997" blue="0.95238267899999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C3n-Cf-Bxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="398"/>
         </scene>
     </scenes>
     <resources>
